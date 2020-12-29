@@ -99,7 +99,7 @@ function draw() {
     
     if((touches.length > 0 || keyDown("SPACE")) && trex.y  >= height-120) {
       jumpSound.play( )
-      trex.velocityY = -10;
+      trex.velocityY = -12;
        touches = [];
     }
     
@@ -200,7 +200,7 @@ function spawnObstacles() {
     }
     
     //assign scale and lifetime to the obstacle           
-    obstacle.scale = 0.4;
+    obstacle.scale = 0.3;
     obstacle.lifetime = displayWidth+50;
     obstacle.depth = trex.depth;
     trex.depth +=1;
