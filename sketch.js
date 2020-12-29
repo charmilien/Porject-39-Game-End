@@ -119,7 +119,7 @@ function draw() {
         console.log("touched")
     }
 
-    if(frameCount>100)
+    if(frameCount>1000)
     {
       gameState=END
     }
